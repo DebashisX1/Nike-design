@@ -1,0 +1,75 @@
+.body{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 100px;
+
+}
+.text{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.text>h1{
+   font-weight: bolder;
+   flex-wrap: wrap;
+   font-size: 90px;
+   color: black;
+   text-align: left;
+   line-height: 1.05;
+}
+.text>h6{
+   margin: 40px 0;
+   font-size: 22px;
+   width: 80%;
+   color: grey;
+   text-align: left;
+}
+.left{
+   width: 60%;
+}
+.right{
+   width: 40%;
+   justify-content: center;
+}
+.footware{
+   height: 600px;
+   width: 550px;
+}
+
+.button{
+   justify-items: left;
+ }
+
+ .shop{
+   margin-right: 10px;
+   height: 40px;
+   width: 120px;
+   font-size: 18px;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+.category{
+   margin-left: 10px;
+   height: 40px;
+   width: 120px;
+   font-size: 18px;
+   background-color: white;
+   color: black;
+   border: 1px outset black;
+   cursor: pointer;
+} 
+.store>h6{
+   margin-top: 20px;
+   font-size: 15px;
+   color: gray;
+}
+.store-icons{
+   display: flex;
+   gap: 10px;
+}
+.icon{
+   height: 50px;
+   width: 50px;
+}
