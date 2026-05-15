@@ -30,7 +30,6 @@
 }
 .right{
    width: 40%;
-   justify-content: center;
 }
 .footware{
    height: 600px;
@@ -61,7 +60,7 @@
    cursor: pointer;
 } 
 .store>h6{
-   margin-top: 20px;
+   margin: 20px 0 10px 0;
    font-size: 15px;
    color: gray;
 }
@@ -71,5 +70,5 @@
 }
 .icon{
    height: 50px;
-   width: 50px;
+   width: 60px;
 }
