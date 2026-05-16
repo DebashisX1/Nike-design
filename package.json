@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://debashisx1.github.io/Nike-design/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
